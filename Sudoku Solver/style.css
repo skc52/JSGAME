@@ -5,3 +5,36 @@
     top: 50%;
     transform: translate(-50%, -50%);
 }
+
+button {
+    font-size: 22px;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#solvebtn {
+    background-color: #27ae60; /* Green color for solve button */
+}
+
+#solvebtn:hover {
+    background-color: #219653;
+}
+
+#check {
+    background-color: #e74c3c; /* Red color for check button */
+}
+
+#check:hover {
+    background-color: #c0392b;
+}
